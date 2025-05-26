@@ -10,13 +10,13 @@ const Dashboard = () => (
 
         {/* Left body anatomy */}
         <div className="w-[50%] h-auto bg-white p-4 rounded-3xl shadow-md">
-            <div className="relative w-full border-outline-none">
+            <div className="relative w-full border-outline-none mb-2">
                 <input
                     type="text"
                     placeholder="Search"
-                    className="w-full px-4 py-2  rounded-full focus:outline-none focus:ring-1"
+                    className="w-full px-4 py-2  rounded-full focus:outline-none focus:ring-1 ml-2"
                 />
-                <FaSearch className="absolute top-3 left-0 text-gray-500" />
+                <FaSearch className="absolute top-3 left-2 text-gray-500" />
                 <IoNotifications className="absolute top-3 right-3 text-blue-700" size={20} />
             </div>
             <DashboardAnatomy />
